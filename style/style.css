@@ -13,6 +13,14 @@
   font-style: normal;
 }
 /* shared style  */
+main{
+  max-width: 1200px;
+  margin: 0 auto;
+  /* border: 5px solid red; */
+}
+main > section{
+  margin-top: 120px;
+}
 .display-items {
   display: flex;
 }
@@ -22,9 +30,10 @@
   color: white;
   background-color: #ff900e;
   border: none;
+  cursor: pointer;
   border-radius: 8px;
 }
-/* Header style  */
+/* Header-part-start  */
 .navber {
   justify-content: space-between;
   padding: 20px 0;
@@ -53,7 +62,7 @@
 }
 /* Banner-heading-Part */
 .banner {
-  margin: 50px auto;
+  margin: 0 auto;
   /* border: 3px solid black; */
 }
 .banner-tittle {
@@ -94,4 +103,71 @@
   .Brand-text{|
   font-size: 10px;}
 }
-/* Naver related style  */
+/* Header-part-End  */
+/* main-part-start  */
+
+/* Section-One-start  */
+.section-one{
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.img-container{
+  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding: 15px;
+
+}
+.img-item{
+  height: 270px;
+  width: 270px;
+  border: 0.1px dashed #dad2d2;
+}
+.our-features{
+  width: 450px;
+}
+.all-sp{
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+#sp-1{
+  color: #727272;
+}
+#sp-2{
+  color: #131313;
+}
+#sp-3{
+  color:#FF900E;
+}
+.peragrap{
+  font-size: 13px;
+  color: #727272;
+  margin-bottom: 20px;
+}
+@media screen and (max-width:575px) {
+  .section-one{
+    flex-direction: column-reverse;
+  }
+  .img-container{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    padding: 5px;
+  
+  }
+ .img-item{
+  height: 220px;
+  width: 220px;
+}
+/* Section-One-start  */
+
+
+
+
+
+
+
+
+/* main-part-start  */
+
