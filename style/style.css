@@ -160,13 +160,59 @@ main > section{
   height: 220px;
   width: 220px;
 }
+}
 /* Section-One-start  */
 
+/* section-three-start  */
+.Some-Facts{
+}
+.Some-Facts-tittle{
+  width: 70%;
+}
+.Some-Facts-tittle p{
+  color: #727272;
+  margin-top: 15px;
+  font-size: 13px;
+}
+.Some-Facts-items, .display-items{
+  margin-top: 40px;
+  justify-content: space-around;
+
+}
+.Facts-item{
+ padding: 15px 35px;
+  text-align: center;
+  border: 1px solid #FF900E;
+  border-radius: 8px;
+}
+.Facts-item h3{
+  color: #424242;
+  margin: 13px 0;
+  font-weight: 600;
+}
+.Facts-item h6{
+  color: #727272;
+  font-size: 10px;
+}
+.item-4{
+  padding: 20px 43px;
+}
+
+@media screen and (max-width:575px) {
+ .Some-Facts-tittle{
+  width: 90%;
+  margin-left: 10px ;
+ }
 
 
-
-
-
+  .Some-Facts-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+  }
+}
+/* section-three-End  */
 
 
 /* main-part-start  */
