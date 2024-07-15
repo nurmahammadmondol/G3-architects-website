@@ -24,6 +24,11 @@ main > section{
 .display-items {
   display: flex;
 }
+p {
+   color: #727272;
+   margin-top: 15px;
+  font-size: 13px;
+}
 .btn-praimary {
   font-size: 20px;
   padding: 9px 25px;
@@ -47,6 +52,7 @@ main > section{
   margin: 0 auto;
 }
 .bg-light {
+
   background-color: rgba(255, 144, 14, 0.1);
 }
 .nav-links {
@@ -87,6 +93,7 @@ main > section{
 }
 /* Media Quarry  */
 @media screen and (max-width: 575px) {
+  
   .navber,
   .nav-links {
     flex-direction: column;
@@ -148,6 +155,7 @@ main > section{
 }
 @media screen and (max-width:575px) {
   .section-one{
+
     flex-direction: column-reverse;
   }
   .img-container{
@@ -159,7 +167,7 @@ main > section{
  .img-item{
   height: 220px;
   width: 220px;
-}
+  }
 }
 /* Section-One-start  */
 
@@ -169,11 +177,11 @@ main > section{
 .Some-Facts-tittle{
   width: 70%;
 }
-.Some-Facts-tittle p{
+/* .Some-Facts-tittle p{
   color: #727272;
   margin-top: 15px;
   font-size: 13px;
-}
+} */
 .Some-Facts-items, .display-items{
   margin-top: 40px;
   justify-content: space-around;
@@ -203,8 +211,7 @@ main > section{
   width: 90%;
   margin-left: 10px ;
  }
-
-
+  
   .Some-Facts-items{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -214,6 +221,65 @@ main > section{
 }
 /* section-three-End  */
 
+/* section-fore-start  */
 
-/* main-part-start  */
+.Sponspors-detials{
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
 
+.Sponspors-company{
+  filter: grayscale(100%);
+  display: flex;
+  justify-content: space-around;
+  
+}
+.Sponspors-company img{
+  width: 100px;
+}
+.grid-span{
+  grid-row:span 2;
+}
+@media screen and (max-width:575px) {
+  
+  .Sponspors-detials{
+    width: 90%;
+  }
+  .Sponspors-company{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr) ;
+    gap: 20px;
+   
+  }
+  .Sponspors-company img{
+    margin: 0 auto;
+  }
+  .grid-span{
+    grid-column: span 2;
+  }
+}
+/* section-fore-End */
+
+/* main-part-End  */
+
+/* footer-part-start  */
+.footer{
+  margin-top: 50px;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF4E7;
+ 
+}
+
+@media screen and (max-width:575px) {
+  .footer{
+    width: 100%;
+  }
+}
+
+/* footer-part-start  */
